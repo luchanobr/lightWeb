@@ -1,7 +1,6 @@
-import * as bodyParse  from "body-parser"
+import * as bodyParse from 'body-parser';
 
+const bodyParseJson = bodyParse.json();
+const bodyParseUrlencoded = bodyParse.urlencoded({ extended: true });
 
-const bodyParseJson = bodyParse.json()
-const bodyParseUrlencoded = bodyParse.urlencoded({extended: true})
-
-export { bodyParseJson, bodyParseUrlencoded}
+export { bodyParseJson, bodyParseUrlencoded };

@@ -1,5 +1,5 @@
-import morgan from "morgan"
+import morgan from 'morgan';
 
 const logger = morgan('dev');
 
-export {logger}
+export { logger };
